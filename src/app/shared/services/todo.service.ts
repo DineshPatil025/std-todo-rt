@@ -17,6 +17,7 @@ export class TodoService {
   }
 
   addNewItem(newTodo: Itodo){
+    
     console.log(newTodo);
     
     this.todoItemArr.push(newTodo);

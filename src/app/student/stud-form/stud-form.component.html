@@ -1,0 +1,22 @@
+<form [formGroup]="studForm" (ngSubmit)="onStudAdd()">
+    <div class="form-group">
+        <label for="stdfname">First Name</label>
+        <input type="text" class="form-control" id="stdfname" formControlName ="stdfname">
+    </div>
+    <div class="form-group">
+        <label for="stdlname">Last Name</label>
+        <input type="text" class="form-control" id="stdlname" formControlName ="stdlname">
+    </div>
+    <div class="form-group">
+        <label for="stdemail">Email</label>
+        <input type="text" class="form-control" id="stdemail" formControlName ="stdemail">
+    </div>
+    <div class="form-group">
+        <label for="stdcontact">Contact</label>
+        <input type="text" class="form-control" id="stdcontact" formControlName ="stdcontact">
+    </div>
+
+    <div class="text-right">
+        <button mat-raised-button color="primary">Add Student</button>
+    </div>
+</form>

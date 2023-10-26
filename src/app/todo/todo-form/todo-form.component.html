@@ -1,12 +1,12 @@
 <form [formGroup]="todoForm" (ngSubmit)="onAddToDoItem()">
 
 <div class="form-group" >
-    <label for="todoitem">ToDo Item</label>
-    <input type="text" id="todoitem" class="form-control" formControlName ="todoitem">
+    <label for="todoItem">ToDo Item</label>
+    <input type="text" id="todoItem" class="form-control" formControlName ="todoItem">
 </div>
 <div class="text-right">
     <button mat-raised-button color="primary"
-    [disabled]="todoForm.invalid"
+    
     >Add ToDo</button>
 </div>
 </form>
